@@ -1,0 +1,1473 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\controller">
+      <UniqueIdentifier>{12330511-ded8-4393-a17c-5d3bb3104bb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\model">
+      <UniqueIdentifier>{ca5b5d21-7399-4e13-931d-7f498152a50f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\net">
+      <UniqueIdentifier>{7e7ed3da-cb58-4131-9de5-529999789093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tool">
+      <UniqueIdentifier>{43f3667e-977c-4ae7-831d-5b82f37218b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\proto">
+      <UniqueIdentifier>{e18b1be9-8f93-4994-b3bc-8c6db3711ae7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\socket">
+      <UniqueIdentifier>{69268092-1d40-4e65-9687-e1f9818457c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\proto\protocal">
+      <UniqueIdentifier>{d5ab1676-afa6-4f81-ab74-d7ba7f7e5f9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\platform">
+      <UniqueIdentifier>{2a37cbbc-f92b-4ebb-95ad-c0b88302f82b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\controller\login">
+      <UniqueIdentifier>{90f43145-0257-4621-b95e-b3d5f75e2316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\controller\table">
+      <UniqueIdentifier>{97534db6-fdc0-43cf-8efb-a7e1b320e7a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sound">
+      <UniqueIdentifier>{344e33aa-d6a7-4f5f-994b-46b430c2e1df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sound\amr_nb">
+      <UniqueIdentifier>{a9f39004-af70-4970-9043-2eebe7e16310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\controller\lobby">
+      <UniqueIdentifier>{31855b24-d203-4b57-8135-f513d59ebb91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util">
+      <UniqueIdentifier>{1962961d-2037-42b0-8a90-bbb8af375c58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\adapter">
+      <UniqueIdentifier>{09c5c2d2-3c76-46e2-9690-253216a0015c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\view">
+      <UniqueIdentifier>{ea3cef11-558b-430e-b1f2-976b0a1710f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\view\Scene">
+      <UniqueIdentifier>{24fa628f-f7ef-415d-a6e9-b8eddab485d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\view\Layer">
+      <UniqueIdentifier>{9150df7f-d759-40e2-b9a9-abcf2c04a2a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\view\Layer\Login">
+      <UniqueIdentifier>{60ed776d-b231-4be8-9622-15401f446295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\view\Layer\Menu">
+      <UniqueIdentifier>{4c903e3c-24a3-41aa-bf64-92344a3f994f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\view\Layer\Tip">
+      <UniqueIdentifier>{0414754e-841f-4f43-b5a1-5aaa2ff632b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\view\Layer\Main">
+      <UniqueIdentifier>{4a90a088-7640-47b8-ac6b-4b8b88398620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\view\Layer\Lobby">
+      <UniqueIdentifier>{64b4e469-821d-4e7f-a8f2-36170be4a5a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\view\ParentInfo">
+      <UniqueIdentifier>{3ca505d1-b2aa-4b97-83b8-70acfa5122b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\net\Http.cpp">
+      <Filter>src\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\controller\MainCommand.cpp">
+      <Filter>src\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\socket\ODSocket.cpp">
+      <Filter>src\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\socket\SocketUtil.cpp">
+      <Filter>src\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\proto\command.pb.cc">
+      <Filter>src\proto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\proto\errorcode.pb.cc">
+      <Filter>src\proto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\proto\opcode.pb.cc">
+      <Filter>src\proto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\proto\server.pb.cc">
+      <Filter>src\proto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\proto\version.pb.cc">
+      <Filter>src\proto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\platform\Platform.cpp">
+      <Filter>src\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\Scene\SceneLoading.cpp">
+      <Filter>src\view\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\Scene\SceneGame.cpp">
+      <Filter>src\view\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\Layer\Login\LayerLogin.cpp">
+      <Filter>src\view\Layer\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tool\Tools.cpp">
+      <Filter>src\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\Layer\Tip\TipContent.cpp">
+      <Filter>src\view\Layer\Tip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\Layer\Main\GameController.cpp">
+      <Filter>src\view\Layer\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\Layer\Main\GameMain.cpp">
+      <Filter>src\view\Layer\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\controller\login\LoginCommand.cpp">
+      <Filter>src\controller\login</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\Layer\Menu\GameMenu.cpp">
+      <Filter>src\view\Layer\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\controller\table\TableCommand.cpp">
+      <Filter>src\controller\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\Layer\Main\layer_result.cpp">
+      <Filter>src\view\Layer\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\platform\MissionWeiXin.cpp">
+      <Filter>src\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\platform\JniCallback.cpp">
+      <Filter>src\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\platform\JniFun.cpp">
+      <Filter>src\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tool\Tiperror.cpp">
+      <Filter>src\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\MjData.cpp">
+      <Filter>src\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\GamerData.cpp">
+      <Filter>src\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\GamerDataDeal.cpp">
+      <Filter>src\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\ParentInfo\ParentInfo.cpp">
+      <Filter>src\view\ParentInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\Layer\Main\MjNode.cpp">
+      <Filter>src\view\Layer\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\ArmFun.cpp">
+      <Filter>src\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\bgnscd.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\bitno_tab.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\bitreorder_tab.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\bits2prm.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\c_g_aver.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\c2_9pf.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\c2_9pf_tab.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\c2_11pf.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\c3_14pf.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\c4_17pf.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\c8_31pf.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\c1035pf.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\calc_cor.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\calc_en.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\cbsearch.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\cl_ltp.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\cod_amr.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\convolve.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\copy.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\cor_h.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\cor_h_x.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\cor_h_x2.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\corrwght_tab.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\d_gain_c.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\d_gain_p.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\d_plsf.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\d_plsf_3.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\d_plsf_5.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\d2_9pf.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\d2_11pf.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\d3_14pf.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\d4_17pf.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\d8_31pf.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\d1035pf.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\dec_amr.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\dec_gain.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\dec_input_format_tab.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\dec_lag3.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\dec_lag6.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\decoder_gsm_amr.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\div_32.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\div_s.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\dtx_dec.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\dtx_enc.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\ec_gains.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\enc_lag3.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\enc_lag6.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\enc_output_format_tab.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\ets_to_if2.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\ets_to_wmf.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\ex_ctrl.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\extract_h.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\extract_l.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\g_adapt.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\g_code.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\g_pitch.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\gain_q.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\gains_tbl.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\gc_pred.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\get_const_tbls.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\gmed_n.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\gray_tbl.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\grid_tbl.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\gsmamr_encoder_wrapper.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\hp_max.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\if2_to_ets.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\int_lpc.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\int_lsf.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\inter_36.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\inter_36_tab.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\inv_sqrt.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\inv_sqrt_tbl.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\l_abs.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\l_comp.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\l_deposit_h.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\l_deposit_l.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\l_extract.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\l_negate.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\l_shr_r.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\lag_wind.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\lag_wind_tab.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\levinson.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\lflg_upd.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\log2.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\log2_norm.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\log2_tbl.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\lpc.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\lsfwt.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\lsp.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\lsp_avg.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\lsp_az.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\lsp_lsf.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\lsp_lsf_tbl.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\lsp_tab.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\mult_r.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\negate.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\norm_l.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\norm_s.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\ol_ltp.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\overflow_tbl.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\p_ol_wgh.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\ph_disp.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\ph_disp_tab.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\pitch_fr.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\pitch_ol.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\post_pro.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\pow2.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\pow2_tbl.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\pre_big.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\pre_proc.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\pred_lt.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\preemph.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\prm2bits.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\pstfilt.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\pvgsmamrdecoder.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\q_gain_c.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\q_gain_p.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\q_plsf.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\q_plsf_3.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\q_plsf_3_tbl.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\q_plsf_5.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\q_plsf_5_tbl.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\qgain475.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\qgain475_tab.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\qgain795.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\qua_gain.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\qua_gain_tbl.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\r_fft.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\reorder.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\residu.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\round.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\s10_8pf.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\set_sign.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\set_zero.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\shr.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\shr_r.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\sid_sync.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\sp_dec.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\sp_enc.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\spreproc.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\spstproc.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\sqrt_l.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\sqrt_l_tbl.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\sub.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\syn_filt.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\ton_stab.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\vad1.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\wavreader.c">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\wavwriter.c">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\weight_a.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\window_tab.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\wmf_to_ets.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\wrapper.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\a_refl.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\add.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\agc.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\amrdecode.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\amrencode.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\autocorr.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\az_lsp.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sound\amr_nb\b_cn_cod.cpp">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\Layer\Main\layer_chat.cpp">
+      <Filter>src\view\Layer\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\Layer\Main\layer_dismiss.cpp">
+      <Filter>src\view\Layer\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tool\MaskLayer.cpp">
+      <Filter>src\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\Layer\Lobby\LobbyMain.cpp">
+      <Filter>src\view\Layer\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\controller\lobby\LobbyCommand.cpp">
+      <Filter>src\controller\lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\Layer\Lobby\LobbyView.cpp">
+      <Filter>src\view\Layer\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\Layer\Lobby\CellItemRecord.cpp">
+      <Filter>src\view\Layer\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\LobbyData.cpp">
+      <Filter>src\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\Layer\Main\layer_result1.cpp">
+      <Filter>src\view\Layer\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\Layer\Main\Playing_Laiya.cpp">
+      <Filter>src\view\Layer\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\Layer\Main\Layer_result3.cpp">
+      <Filter>src\view\Layer\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\net\HttpManager.cpp">
+      <Filter>src\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\controller\lobby\LobbyController.cpp">
+      <Filter>src\controller\lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\Layer\Lobby\CellItemMsg.cpp">
+      <Filter>src\view\Layer\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tool\Convert.cpp">
+      <Filter>src\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\Layer\Main\Layer_result_pk.cpp">
+      <Filter>src\view\Layer\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\Layer\Lobby\LayerLoading.cpp">
+      <Filter>src\view\Layer\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\Layer\Lobby\PageViewEx.cpp">
+      <Filter>src\view\Layer\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\adapter\LobbyAdapter.cpp">
+      <Filter>src\adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\Layer\Main\Playing_three.cpp">
+      <Filter>src\view\Layer\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\Layer\Main\Playing_two.cpp">
+      <Filter>src\view\Layer\Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\net\Http.h">
+      <Filter>src\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\controller\BaseCommand.h">
+      <Filter>src\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\controller\MainCommand.h">
+      <Filter>src\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\socket\ODSocket.h">
+      <Filter>src\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\socket\SocketUtil.h">
+      <Filter>src\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\proto\command.pb.h">
+      <Filter>src\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\proto\errorcode.pb.h">
+      <Filter>src\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\proto\opcode.pb.h">
+      <Filter>src\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\proto\server.pb.h">
+      <Filter>src\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\proto\version.pb.h">
+      <Filter>src\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\proto\protocal\ProSMsgHead.h">
+      <Filter>src\proto\protocal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\platform\Platform.h">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\Scene\SceneLoading.h">
+      <Filter>src\view\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\Scene\SceneGame.h">
+      <Filter>src\view\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\Layer\Login\LayerLogin.h">
+      <Filter>src\view\Layer\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tool\Tools.h">
+      <Filter>src\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\Layer\Tip\TipContent.h">
+      <Filter>src\view\Layer\Tip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\Layer\Main\GameController.h">
+      <Filter>src\view\Layer\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\Layer\Main\GameMain.h">
+      <Filter>src\view\Layer\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\controller\login\LoginCommand.h">
+      <Filter>src\controller\login</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\Layer\Menu\GameMenu.h">
+      <Filter>src\view\Layer\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\controller\table\TableCommand.h">
+      <Filter>src\controller\table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\Layer\Main\layer_result.h">
+      <Filter>src\view\Layer\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\platform\JniFun.h">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\platform\MissionWeiXin.h">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\platform\JniCallback.h">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tool\Tiperror.h">
+      <Filter>src\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\GamerDataDeal.h">
+      <Filter>src\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\MjData.h">
+      <Filter>src\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\GamerData.h">
+      <Filter>src\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\ParentInfo\ParentInfo.h">
+      <Filter>src\view\ParentInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\Layer\Main\MjNode.h">
+      <Filter>src\view\Layer\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\ArmFun.h">
+      <Filter>src\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\basic_op.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\basic_op_arm_gcc_v5.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\basic_op_c_equivalent.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\basicop_malloc.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\bgnscd.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\bitno_tab.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\bitreorder_tab.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\bytesused.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\c_g_aver.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\c2_9pf.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\c2_11pf.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\c3_14pf.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\c4_17pf.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\c8_31pf.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\c1035pf.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\calc_cor.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\calc_en.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\cbsearch.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\cl_ltp.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\cnst.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\cnst_vad.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\cod_amr.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\convolve.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\cor_h.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\cor_h_x.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\cor_h_x2.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\d_gain_c.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\d_gain_p.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\d_plsf.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\d2_9pf.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\d2_11pf.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\d3_14pf.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\d4_17pf.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\d8_31pf.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\d1035pf.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\dec_amr.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\dec_gain.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\dec_lag3.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\dec_lag6.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\decoder_gsm_amr.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\div_32.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\div_s.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\dtx_common_def.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\dtx_dec.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\dtx_enc.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\ec_gains.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\enc_lag3.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\enc_lag6.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\ets_to_if2.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\ets_to_wmf.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\ex_ctrl.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\frame.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\frame_type_3gpp.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\g_adapt.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\g_code.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\g_pitch.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\gain_q.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\gc_pred.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\get_const_tbls.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\gmed_n.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\gsm_amr_typedefs.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\gsmamr_dec.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\gsmamr_enc.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\gsmamr_encoder_wrapper.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\hp_max.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\if2_to_ets.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\int_lpc.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\int_lsf.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\inter_36.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\inter_36_tab.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\interf_dec.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\interf_enc.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\inv_sqrt.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\l_abs.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\l_add.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\l_add_c.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\l_comp.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\l_extract.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\l_mac.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\l_msu.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\l_mult.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\l_negate.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\l_shl.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\l_shr.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\l_shr_r.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\l_sub.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\lag_wind.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\lag_wind_tab.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\levinson.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\log2.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\log2_norm.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\lpc.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\lsfwt.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\lsp.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\lsp_avg.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\lsp_az.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\lsp_lsf.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\lsp_tab.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\mac_32.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\mode.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\mpy_32.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\mpy_32_16.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\mult.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\mult_r.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\n_proc.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\negate.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\norm_l.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\norm_s.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\ol_ltp.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\oper_32b.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\oscl_base.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\oscl_base_macros.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\oscl_mem.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\p_ol_wgh.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\ph_disp.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\pitch_fr.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\pitch_ol.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\post_pro.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\pow2.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\pre_big.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\pre_proc.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\pred_lt.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\preemph.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\prm2bits.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\pstfilt.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\pvamrnbdecoder_api.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\pvgsmamr.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\pvgsmamrdecoder.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\pvgsmamrdecoder_dpi.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\pvgsmamrdecoderinterface.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\q_gain_c.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\q_gain_p.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\q_plsf.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\q_plsf_3_tbl.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\q_plsf_5_tbl.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\qgain475.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\qgain475_tab.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\qgain795.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\qua_gain.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\qua_gain_tbl.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\reorder.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\residu.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\reverse_bits.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\round.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\s10_8pf.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\set_sign.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\set_zero.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\shl.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\shr.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\shr_r.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\sid_sync.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\sp_dec.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\sp_enc.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\spreproc.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\spstproc.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\sqrt_l.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\sub.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\syn_filt.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\ton_stab.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\typedef.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\vad.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\vad1.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\vad2.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\wavreader.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\wavwriter.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\weight_a.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\window_tab.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\wmf_to_ets.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\a_refl.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\abs_s.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\add.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\agc.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\amrdecode.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\amrencode.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\autocorr.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\az_lsp.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sound\amr_nb\b_cn_cod.h">
+      <Filter>src\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\Layer\Main\layer_chat.h">
+      <Filter>src\view\Layer\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\Layer\Main\layer_dismiss.h">
+      <Filter>src\view\Layer\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tool\MaskLayer.h">
+      <Filter>src\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\util\GameConst.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\util\GameEnum.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\util\GameResources.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\Layer\Lobby\LobbyMain.h">
+      <Filter>src\view\Layer\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\controller\lobby\LobbyCommand.h">
+      <Filter>src\controller\lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\Layer\Lobby\LobbyView.h">
+      <Filter>src\view\Layer\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\Layer\Lobby\CellItemRecord.h">
+      <Filter>src\view\Layer\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\LobbyData.h">
+      <Filter>src\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\Layer\Main\layer_result1.h">
+      <Filter>src\view\Layer\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\Layer\Main\Playing_Laiya.h">
+      <Filter>src\view\Layer\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\Layer\Main\Layer_result3.h">
+      <Filter>src\view\Layer\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\net\HttpManager.h">
+      <Filter>src\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\controller\lobby\LobbyController.h">
+      <Filter>src\controller\lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\Layer\Lobby\CellItemMsg.h">
+      <Filter>src\view\Layer\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tool\Convert.h">
+      <Filter>src\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\Layer\Main\Layer_result_pk.h">
+      <Filter>src\view\Layer\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\Layer\Lobby\LayerLoading.h">
+      <Filter>src\view\Layer\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\Layer\Lobby\PageViewEx.h">
+      <Filter>src\view\Layer\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\adapter\LobbyAdapter.h">
+      <Filter>src\adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\Layer\Main\GameDefine.h">
+      <Filter>src\view\Layer\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\Layer\Main\Playing_parent.h">
+      <Filter>src\view\Layer\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\Layer\Main\Playing_three.h">
+      <Filter>src\view\Layer\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\Layer\Main\Playing_two.h">
+      <Filter>src\view\Layer\Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Classes\proto\command.proto">
+      <Filter>src\proto</Filter>
+    </None>
+    <None Include="..\Classes\proto\opcode.proto">
+      <Filter>src\proto</Filter>
+    </None>
+    <None Include="..\Classes\proto\server.proto">
+      <Filter>src\proto</Filter>
+    </None>
+    <None Include="..\Classes\proto\version.proto">
+      <Filter>src\proto</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Classes\proto\command.proto.txt">
+      <Filter>src\proto</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
